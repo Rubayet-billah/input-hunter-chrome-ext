@@ -1,0 +1,42 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  width: 350px;
+  font-family: "Poppins", sans-serif;
+  padding: 20px;
+  background-color: rgb(32, 32, 32);
+  color: white;
+}
+
+#heading {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+#heading-icon {
+  width: 28px;
+}
+
+#heading-text {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: large;
+}
+
+main {
+  text-align: center;
+}
+
+#show-input-text {
+  margin: 20px 0;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+#inputCount {
+  color: #3b82f6;
+}
